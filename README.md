@@ -6,3 +6,5 @@ Credits:
 [Perry Bible Fellowship](pbfcomics.com/162/)
 
 [gifsoup.com](gifsoup.com)
+
+Random Submissions
