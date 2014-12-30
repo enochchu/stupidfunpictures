@@ -1,7 +1,7 @@
 import json
 import os
 
-GIF_FOLDER="gif"
+GIF_FOLDER="./"
 BACK_ONE_FOLDER=".."
 
 class GenerateFolderStructure:
@@ -9,17 +9,12 @@ class GenerateFolderStructure:
 		f = open('data.json', 'w')
 		f.write(json.dumps(data))
 		f.close()
-
 		pass
 
-
 	def generateListByFolder(self, folder):
-		foldername = folder
-
 		os.chdir(folder)
 		result = os.listdir()
 		os.chdir(BACK_ONE_FOLDER)
-
 		return result
 
 	def init(self):
