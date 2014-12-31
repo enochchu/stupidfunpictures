@@ -1,13 +1,14 @@
 import json
 import os
 
-GIF_FOLDER="./"
+GIF_FOLDER="./gif/"
 BACK_ONE_FOLDER=".."
 
 class GenerateFolderStructure:
 	def writeJSON(self, data):
 		f = open('data.json', 'w')
 		f.write(json.dumps(data))
+		print(json.dumps(data))
 		f.close()
 		pass
 
