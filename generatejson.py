@@ -30,6 +30,7 @@ class GenerateFolderStructure:
 				i = self.generateListByFolder(f)
 				data[f] = i
 
+		data = sorted(data)
 		self.writeJSON(data)
 		pass
 
